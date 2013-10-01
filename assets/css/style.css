@@ -2,12 +2,12 @@
 
 @font-face{
 	font-family: HelveticaNeueLtStd-Cn;
-	src: url('assets/fonts/HELVETICANEUELTSTD-CN.OTF') format('opentype');
+	src: url('/assets/fonts/HELVETICANEUELTSTD-CN.OTF') format('opentype');
 }
 
 @font-face{
 	font-family: HelveticaNeueLtStd-BdCn;
-	src: url('assets/fonts/HELVETICANEUELTSTD-BDCN.OTF') format('opentype');
+	src: url('/assets/fonts/HELVETICANEUELTSTD-BDCN.OTF') format('opentype');
 	font-weight: bold;
 }
 
