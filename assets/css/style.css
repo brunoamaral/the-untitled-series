@@ -1,29 +1,30 @@
 /* Fonts */
 
 @font-face{
-	font-family: HelveticaNeueLtStd-Cn;
-	src: url('/the-untitled-series/assets/fonts/HELVETICANEUELTSTD-CN.OTF') format('opentype');
+	font-family: 'Helvetica Neue Lt Std Condensed';
+	src: url('../fonts/HELVETICANEUELTSTD-CN.OTF') format('opentype');
 }
 
 @font-face{
-	font-family: HelveticaNeueLtStd-BdCn;
-	src: url('/the-untitled-series/assets/fonts/HELVETICANEUELTSTD-BDCN.OTF') format('opentype');
+	font-family: 'Helvetica Neue Lt Std Bold Condensed';
+	src: url('../fonts/HELVETICANEUELTSTD-BDCN.OTF') format('opentype');
 	font-weight: bold;
 }
 
 /**/
 
+/* HTML tags */
 body, p, h1, h2, h3, h4, h5, h6{
-	font-family: HelveticaNeueLtStd-Cn;
+	font-family: 'Helvetica Neue Lt Std Condensed', Helvetica, sans serif;
 }
 
-p{
-<<<<<<< HEAD
-=======
-	font-size: 20px;
-	line-height: 1.85em;
-	margin-bottom: 30px;
+/**/
+
+/* Classes */
+
+.text-justify{
 	text-align: justify;
 	hyphens: auto;
->>>>>>> master
 }
+
+/**/
