@@ -19,7 +19,7 @@ comments: true
   {% assign post = site.posts.first %}
 
 	<h1 class="entry-title text-center">
-    	<a href="{{ root_url }}{{ post.url }}">{{ post.title }}</a>
+    	<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
 	</h1>
 	<div class="entry-content text-justify">
 		{{ post.content }}
