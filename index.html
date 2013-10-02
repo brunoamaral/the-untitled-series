@@ -3,7 +3,7 @@ layout: default
 title: The Untitled Series
 ---
 
-<div class="col-md-12">
+<div class="col-md-3">
 	<div id="home">
 	  <h1>The Untitled Series</h1>
 	  <ul class="posts">
@@ -12,4 +12,13 @@ title: The Untitled Series
 	    {% endfor %}
 	  </ul>
 	</div>
+</div>
+
+<div class="col-md-8 col-md-offset-1">
+  {% assign post = site.posts.first %}
+
+	<h1 class="entry-title text-center">
+    	<a href="{{ root_url }}{{ post.url }}">{{ post.title }}</a>
+	</h1>
+<div class="entry-content">{{ post.content }}</div>
 </div>
