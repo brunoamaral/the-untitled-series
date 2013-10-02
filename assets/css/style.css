@@ -18,4 +18,12 @@ body, p, h1, h2, h3, h4, h5, h6{
 }
 
 p{
+<<<<<<< HEAD
+=======
+	font-size: 20px;
+	line-height: 1.85em;
+	margin-bottom: 30px;
+	text-align: justify;
+	hyphens: auto;
+>>>>>>> master
 }
