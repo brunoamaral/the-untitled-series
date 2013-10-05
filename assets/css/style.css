@@ -1,4 +1,4 @@
-/* Fonts */
+/* Fonts *
 
 @font-face{
 	font-family: 'Helvetica Neue Lt Std Condensed';
@@ -14,8 +14,14 @@
 /**/
 
 /* HTML tags */
-body, p, h1, h2, h3, h4, h5, h6{
-	font-family: 'Helvetica Neue Lt Std Condensed', Helvetica, sans serif;
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Oxygen', sans-serif;
+
+/*	font-family: 'Helvetica Neue Lt Std Condensed', Helvetica, sans serif;*/
+}
+
+body, p{
+	font-family: 'Arvo', serif;
 }
 
 /**/
