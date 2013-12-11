@@ -1,8 +1,6 @@
 ---
 layout: post
 title: Um recomeço
-date:
-categories: 
 ---
 
 Passaram-se poucos dias desde que tinha acordado naquele lugar estranho, um hospital como nunca tinha visto ou imaginado. Tinha a mente em branco, sem qualquer recordação ou memória. 
